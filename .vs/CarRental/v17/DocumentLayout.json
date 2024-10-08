@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\VisualStudio\\CarRental\\CarRental\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\carrental\\carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\carrental\\carrental\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\carrental\\carrental\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|d:\\visualstudio\\carrental\\carrental\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{794EA1B9-7B45-4A68-8D42-58588A018F61}|CarRental.csproj|solutionrelative:views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +22,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "style.css",
               "DocumentMoniker": "D:\\VisualStudio\\CarRental\\CarRental\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
               "ToolTip": "D:\\VisualStudio\\CarRental\\CarRental\\wwwroot\\css\\style.css",
               "RelativeToolTip": "wwwroot\\css\\style.css",
-              "ViewState": "AgIAANYDAAAAAAAAAAAAAOMDAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAALMDAAAAAAAAAAAAANEDAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-05T13:05:20.815Z",
               "IsPinned": true,
@@ -68,13 +72,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\VisualStudio\\CarRental\\CarRental\\Views\\LogIn\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LogIn\\Index.cshtml",
+              "ToolTip": "D:\\VisualStudio\\CarRental\\CarRental\\Views\\LogIn\\Index.cshtml",
+              "RelativeToolTip": "Views\\LogIn\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-08T05:48:00.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\VisualStudio\\CarRental\\CarRental\\Views\\Register\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Register\\Index.cshtml",
               "ToolTip": "D:\\VisualStudio\\CarRental\\CarRental\\Views\\Register\\Index.cshtml",
               "RelativeToolTip": "Views\\Register\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-08T01:20:13.29Z",
               "EditorCaption": ""
