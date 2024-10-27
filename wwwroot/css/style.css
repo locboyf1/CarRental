@@ -1014,6 +1014,6 @@
 
  .register .container .wrong {
         color: darkred;
-        visibility: hidden;
+        visibility: unset;
  }
 /*Register end*/

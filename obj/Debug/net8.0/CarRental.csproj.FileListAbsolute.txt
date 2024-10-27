@@ -2245,3 +2245,8 @@ D:\VisualStudio\UDWeb\CarRental\obj\Debug\net8.0\refint\CarRental.dll
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net8.0\CarRental.pdb
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net8.0\CarRental.genruntimeconfig.cache
 D:\VisualStudio\UDWeb\CarRental\obj\Debug\net8.0\ref\CarRental.dll
+D:\VisualStudio\UDWeb\CarRental\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\VisualStudio\CarRental\CarRental\bin\Debug\net8.0\CarRental.staticwebassets.endpoints.json
+D:\VisualStudio\CarRental\CarRental\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\VisualStudio\CarRental\CarRental\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\VisualStudio\CarRental\CarRental\obj\Debug\net8.0\staticwebassets\msbuild.CarRental.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
