@@ -66,8 +66,7 @@
               "RelativeToolTip": "Views\\LogIn\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T11:11:17.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T11:11:17.552Z"
             },
             {
               "$type": "Document",
@@ -77,10 +76,9 @@
               "RelativeDocumentMoniker": "Controllers\\LogInController.cs",
               "ToolTip": "D:\\VisualStudio\\CarRental\\CarRental\\Controllers\\LogInController.cs",
               "RelativeToolTip": "Controllers\\LogInController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAuwB4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAB4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T11:05:41.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T11:05:41.971Z"
             }
           ]
         }
