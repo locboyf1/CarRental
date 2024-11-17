@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CarRental.Models.TbProductionModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid pt-4 px-4">
+    <div class="col-sm-12 col-xl-12">
+        <div class="bg-secondary rounded h-100 p-4">
+            <h6 class="mb-4">Quản lý mẫu xe </h6>
+            <p>
+                    <a asp-action="Create" asp-controller="ProductionModels" asp-area="Admin">Tạo mới</a>
+            </p>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Tên mẫu xe</th>
+                        <th scope="col">Hãng xe</th>
+                        <th scope="col">Số chỗ ngồi</th>
+                        <th scope="col">Năm sản xuất</th>
+                        <th scope="col">Sao</th>
+                        <th scope="col">Nhiên liệu</th>
+                        <th scope="col">Hộp số</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.ProductionModelName)
+                            </td><td>
+                                @Html.DisplayFor(modelItem => item.IdautomakerNavigation.AutomakerName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.SeatingCapacity)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Star)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.IdfuelNavigation.FuelName)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.IdgearboxNavigation.GearboxName)
+                            </td>
+                            <td>
+                                <div class="h-100 d-flex justify-content-between">
+                                    <button class="btn btn-primary" asp-action="Edit" asp-route-id="@item.IdproductionModel" class="col-3">Chỉnh sửa</button>
+                                    <button class="btn btn-primary" asp-action="Details" asp-route-id="@item.IdproductionModel" class="col-3">Chi tiết</button>
+                                    <button class="btn btn-primary" asp-action="Delete" asp-route-id="@item.IdproductionModel" class="col-3">Xóa</button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

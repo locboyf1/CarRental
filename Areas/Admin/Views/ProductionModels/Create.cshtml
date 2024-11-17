@@ -1,0 +1,69 @@
+﻿@model CarRental.Models.TbProductionModel
+
+@{
+	ViewData["Title"] = "Tạo mẫu xe";
+	Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid pt-4 px-4">
+	<div class="col-sm-12 col-xl-12">
+		<div class="bg-secondary rounded h-100 p-4">
+			<h6 class="mb-4">Tạo mẫu xe</h6>
+			<div class="row">
+				<div class="col-md-4">
+					<form asp-action="Create" method="post">
+						<div class="form-group">
+							<label asp-for="ProductionModelName" class="control-label">Tên mẫu xe</label>
+							<input asp-for="ProductionModelName" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label asp-for="Idautomaker" class="control-label">Hãng xe</label>
+							<select asp-for="Idautomaker" class="form-control" asp-items="ViewBag.Idautomaker">
+								<option value="0" selected>--[Chọn hãng xe]--</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label asp-for="SeatingCapacity" class="control-label">Số chỗ ngồi</label>
+							<input asp-for="SeatingCapacity" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label asp-for="Idgearbox" class="control-label">Hộp số</label>
+							<select asp-for="Idgearbox" class="form-control" asp-items="ViewBag.Idgearbox">
+								<option value="0" selected>--[Chọn loại hộp số]--</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label asp-for="Idfuel" class="control-label">Nhiên liệu</label>
+							<select asp-for="Idfuel" class="form-control" asp-items="ViewBag.Idfuel">
+								<option value="0" selected>--[Chọn nhiên liệu xe]--</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label asp-for="Describe" class="control-label">Mô tả</label>
+							<input asp-for="Describe" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label asp-for="Star" class="control-label">Số sao</label>
+							<input asp-for="Star" class="form-control" />
+						</div>
+						<div class="form-group">
+							<label asp-for="IddriverCapabilities" class="control-label">Xe tự lái/xe người lái</label>
+							<select asp-for="IddriverCapabilities" class="form-control" asp-items="ViewBag.IddriverCapabilities">
+								<option value="0" selected>--[Chọn loại xe]--</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<button type="submit" class="btn btn-primary" > Tạo </button>
+						</div>
+
+					</form>
+				</div>
+			</div>
+
+			<div>
+				<a asp-action="Index">Quay lại danh sách</a>
+			</div>
+
+		</div>
+	</div>
+</div>
