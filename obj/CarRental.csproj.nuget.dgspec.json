@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\VisualStudio\\CarRental\\CarRental\\CarRental.csproj": {}
+    "C:\\CarRental\\CarRental\\CarRental.csproj": {}
   },
   "projects": {
-    "D:\\VisualStudio\\CarRental\\CarRental\\CarRental.csproj": {
+    "C:\\CarRental\\CarRental\\CarRental.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\VisualStudio\\CarRental\\CarRental\\CarRental.csproj",
+        "projectUniqueName": "C:\\CarRental\\CarRental\\CarRental.csproj",
         "projectName": "CarRental",
-        "projectPath": "D:\\VisualStudio\\CarRental\\CarRental\\CarRental.csproj",
+        "projectPath": "C:\\CarRental\\CarRental\\CarRental.csproj",
         "packagesPath": "C:\\Users\\locbo\\.nuget\\packages\\",
-        "outputPath": "D:\\VisualStudio\\CarRental\\CarRental\\obj\\",
+        "outputPath": "C:\\CarRental\\CarRental\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -47,30 +47,30 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.8, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.5, )"
+              "version": "[9.0.0, )"
             },
             "SlugGenerator": {
               "target": "Package",
@@ -78,11 +78,11 @@
             },
             "X.PagedList.Mvc.Core": {
               "target": "Package",
-              "version": "[10.2.1, )"
+              "version": "[10.5.7, )"
             },
             "elFinder.NetCore": {
               "target": "Package",
-              "version": "[1.4.0, )"
+              "version": "[1.4.1, )"
             }
           },
           "imports": [
